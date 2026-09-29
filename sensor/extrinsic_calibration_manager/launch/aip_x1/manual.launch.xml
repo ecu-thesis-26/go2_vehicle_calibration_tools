@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-  <arg name="vehicle_id" default="default"/>
+  <arg name="vehicle_id" default="go2_vehicle"/>
 
-  <let name="sensor_model" value="aip_x1"/>
+  <let name="sensor_model" value="go2_vehicle_sensor_kit"/>
 
   <group>
     <push-ros-namespace namespace="sensor_kit"/>
